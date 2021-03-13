@@ -1,5 +1,4 @@
 //Select any phone number in american pattern
-
 function replacePhoneNumber(string) {
   return string.replace(
     /(?:(\+[0-9]{1,3})[ -])?\(?(\d{3})\)?[ -\.]?(\d{3})[ -\.]?(\d{4})/gm,
